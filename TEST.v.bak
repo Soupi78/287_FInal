@@ -1,0 +1,24 @@
+module keytr (
+				BCLK
+				ADC
+				DAC
+			 );
+//=======================================================
+//  PORT declarations
+//=======================================================			 
+input	           BCLK;
+input            ADC;
+
+
+output	        DAC;
+
+reg        [1:0] data;
+
+always@(negedge BCLK)
+begin
+  if (ADC == 0)
+     ADC <= 1;
+  else
+	  ADC <= 0;
+end
+end module
