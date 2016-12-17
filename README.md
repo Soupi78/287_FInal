@@ -1,2 +1,3 @@
-# 287_FInal
-287 Final Project: Ethan Sobol &amp; Noah Smith 
+# 287 Final Report
+287 Final Project: Ethan Sobol - Noah Smith 
+
